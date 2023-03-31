@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +16,8 @@
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "readdirp": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
